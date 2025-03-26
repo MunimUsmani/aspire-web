@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import GlobalExecutiveSearch from "./components/globalsearch";
 import Hero from "./components/hero";
 import KestriaHero from "./components/kestaria";
@@ -18,6 +19,7 @@ export default function Home() {
       <GlobalExecutiveSearch />
       <LatestInsights />
       <SecureTalent />
+      <Footer />
     </main>
   )
 }
