@@ -1,3 +1,4 @@
+import GlobalExecutiveSearch from "./components/globalsearch";
 import Hero from "./components/hero";
 import KestriaHero from "./components/kestaria";
 import LatestInsights from "./components/latest";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <KestriaHero />
       <WhatWeDo />
+      <GlobalExecutiveSearch />
       <LatestInsights />
     </main>
   )
