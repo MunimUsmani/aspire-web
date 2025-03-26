@@ -4,7 +4,7 @@ import "./globals.css";
 
 const unbounded = Unbounded({
   weight: ['400', '500', '600', '700'], 
-  style: ['normal', 'italic'],
+  style: ['normal'],
   variable: "--font-unbounded", 
   subsets: ["latin"],
 });
