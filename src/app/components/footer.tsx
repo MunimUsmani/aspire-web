@@ -5,41 +5,43 @@ import { Linkedin, Twitter, Facebook, Youtube, Instagram } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-[#1a1e2e] text-gray-400 py-10">
-      <div className="mx-auto px-4 md:px-0" style={{ maxWidth: "1000px" }}>
-        {/* Contact Info */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 mb-6 text-white">
+      {/* Contact Info */}
+      <div className="text-center mb-6">
+        <div className="flex justify-center items-center gap-2 text-white">
           <a href="mailto:aspire@aspire-hr.com" className="hover:text-gray-300 transition-colors text-base">
             aspire@aspire-hr.com
           </a>
-          <span className="hidden md:block text-blue-500 font-bold mx-2">|</span>
+          <span className="text-blue-500 font-bold mx-2">|</span>
           <a href="tel:+201000696450" className="hover:text-gray-300 transition-colors text-base">
             +20 100 069 6450
           </a>
         </div>
+      </div>
 
-        {/* Social Media */}
-        <div className="flex justify-center space-x-6 mb-8">
-          <Link href="#" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
-            <Linkedin size={18} />
-          </Link>
-          <Link href="#" aria-label="Twitter" className="text-gray-400 hover:text-white transition-colors">
-            <Twitter size={18} />
-          </Link>
-          <Link href="#" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors">
-            <Facebook size={18} />
-          </Link>
-          <Link href="#" aria-label="YouTube" className="text-gray-400 hover:text-white transition-colors">
-            <Youtube size={18} />
-          </Link>
-          <Link href="#" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
-            <Instagram size={18} />
-          </Link>
-        </div>
+      {/* Social Media */}
+      <div className="flex justify-center space-x-6 mb-8">
+        <Link href="#" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+          <Linkedin size={18} />
+        </Link>
+        <Link href="#" aria-label="Twitter" className="text-gray-400 hover:text-white transition-colors">
+          <Twitter size={18} />
+        </Link>
+        <Link href="#" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors">
+          <Facebook size={18} />
+        </Link>
+        <Link href="#" aria-label="YouTube" className="text-gray-400 hover:text-white transition-colors">
+          <Youtube size={18} />
+        </Link>
+        <Link href="#" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
+          <Instagram size={18} />
+        </Link>
+      </div>
 
-        {/* Footer Links */}
-        <div className="grid grid-cols-4 gap-0 mb-12">
+      {/* Footer Links - All in one div with mx-auto */}
+      <div className="mx-auto max-w-3xl px-4 mb-12">
+        <div className="grid grid-cols-4 gap-4">
           {/* About Us Column */}
-          <div className="col-span-1">
+          <div>
             <h3 className="text-white text-base font-medium mb-3">About Us</h3>
             <ul className="space-y-1.5">
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Why Work With Us</Link></li>
@@ -56,7 +58,7 @@ const Footer = () => {
           </div>
 
           {/* Services Column */}
-          <div className="col-span-1">
+          <div>
             <h3 className="text-white text-base font-medium mb-3">Services</h3>
             <ul className="space-y-1.5">
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Executive Search</Link></li>
@@ -72,7 +74,7 @@ const Footer = () => {
           </div>
 
           {/* Expertise Column */}
-          <div className="col-span-1">
+          <div>
             <h3 className="text-white text-base font-medium mb-3">Expertise</h3>
             <ul className="space-y-1.5">
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Overview</Link></li>
@@ -90,29 +92,29 @@ const Footer = () => {
           </div>
 
           {/* Insights & Contact Column */}
-          <div className="col-span-1 text-right md:text-left">
-            <ul className="space-y-1.5 pt-0.5">
+          <div>
+            <ul className="space-y-2 pt-0.5">
               <li><Link href="#" className="text-white text-base font-medium hover:text-gray-300 transition-colors">Insights</Link></li>
               <li className="mt-3"><Link href="#" className="text-white text-base font-medium hover:text-gray-300 transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>
+      </div>
 
-        {/* Logo */}
-        <div className="flex justify-center mb-5">
-          <Image 
-            src="/Egypt-white.png" 
-            alt="Aspire HR Consultants" 
-            width={140} 
-            height={50}
-            className="h-10 w-auto"
-          />
-        </div>
+      {/* Logo */}
+      <div className="flex justify-center mb-5">
+        <Image 
+          src="/Egypt-white.png" 
+          alt="Aspire HR Consultants" 
+          width={140} 
+          height={50}
+          className="h-10 w-auto"
+        />
+      </div>
 
-        {/* Copyright */}
-        <div className="text-center text-xs">
-          <p>Copyright 2025 Kestria ry. All Rights Reserved. Created by <span className="font-medium">MMATIK</span></p>
-        </div>
+      {/* Copyright */}
+      <div className="text-center text-xs">
+        <p>Copyright 2025 Kestria ry. All Rights Reserved. Created by <span className="font-medium">MMATIK</span></p>
       </div>
     </footer>
   );
