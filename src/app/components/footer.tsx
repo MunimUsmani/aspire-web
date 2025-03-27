@@ -86,8 +86,6 @@ const Footer = () => {
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Technology</Link></li>
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Professional Services</Link></li>
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Education</Link></li>
-              <li><Link href="#" className="text-sm hover:text-white transition-colors">Energy & Infrastructure</Link></li>
-              <li><Link href="#" className="text-sm hover:text-white transition-colors">Healthcare & Life Science</Link></li>
             </ul>
           </div>
 
