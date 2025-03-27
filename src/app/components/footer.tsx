@@ -7,11 +7,11 @@ const Footer = () => {
     <footer className="bg-[#1a1e2e] text-gray-400 py-10">
       {/* Contact Info */}
       <div className="text-center mb-6">
-        <div className="flex justify-center items-center gap-2 text-white">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-2 text-white">
           <a href="mailto:aspire@aspire-hr.com" className="hover:text-gray-300 transition-colors text-base">
             aspire@aspire-hr.com
           </a>
-          <span className="text-blue-500 font-bold mx-2">|</span>
+          <span className="hidden sm:block text-blue-500 font-bold mx-2">|</span>
           <a href="tel:+201000696450" className="hover:text-gray-300 transition-colors text-base">
             +20 100 069 6450
           </a>
@@ -39,9 +39,9 @@ const Footer = () => {
 
       {/* Footer Links - All in one div with mx-auto */}
       <div className="mx-auto max-w-3xl px-4 mb-12">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-4">
           {/* About Us Column */}
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-white text-base font-medium mb-3">About Us</h3>
             <ul className="space-y-1.5">
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Why Work With Us</Link></li>
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
 
           {/* Services Column */}
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-white text-base font-medium mb-3">Services</h3>
             <ul className="space-y-1.5">
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Executive Search</Link></li>
@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
 
           {/* Expertise Column */}
-          <div>
+          <div className="text-center sm:text-left">
             <h3 className="text-white text-base font-medium mb-3">Expertise</h3>
             <ul className="space-y-1.5">
               <li><Link href="#" className="text-sm hover:text-white transition-colors">Overview</Link></li>
@@ -90,7 +90,7 @@ const Footer = () => {
           </div>
 
           {/* Insights & Contact Column */}
-          <div>
+          <div className="text-center sm:text-left">
             <ul className="space-y-2 pt-0.5">
               <li><Link href="#" className="text-white text-base font-medium hover:text-gray-300 transition-colors">Insights</Link></li>
               <li className="mt-3"><Link href="#" className="text-white text-base font-medium hover:text-gray-300 transition-colors">Contact</Link></li>
@@ -111,7 +111,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="text-center text-xs">
+      <div className="text-center text-xs px-4">
         <p>Copyright 2025 Kestria ry. All Rights Reserved. Created by <span className="font-medium">MMATIK</span></p>
       </div>
     </footer>
