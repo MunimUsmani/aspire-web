@@ -84,11 +84,11 @@ const Navbar = () => {
             </button>
             <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
               <div className="py-1">
-                <Link href="/services/recruitment" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-                  Recruitment
+                <Link href="/services/leadership-assessment" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                  Leadership Assessment
                 </Link>
-                <Link href="/services/consulting" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-                  Consulting
+                <Link href="/hrconsultancy " className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                  HR Consultancy 
                 </Link>
               </div>
             </div>
