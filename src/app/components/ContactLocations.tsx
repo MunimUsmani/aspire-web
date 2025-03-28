@@ -76,7 +76,7 @@ const ContactLocations = () => {
                   <Link href="#" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
                     E-mail Contact
                   </Link>
-                </div>
+                </div> 
                 
                 <p className="text-gray-500 text-sm sm:text-base mb-2">Address</p>
                 <div className="flex items-start">
