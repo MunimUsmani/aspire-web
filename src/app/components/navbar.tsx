@@ -98,24 +98,9 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="relative group">
-            <button className="flex items-center text-white hover:text-gray-300 transition-colors">
-              Services <ChevronDown size={16} className="ml-1" />
-            </button>
-            <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-              <div className="py-1">
-                <Link
-                  href="/services/leadership-assessment"
-                  className="block px-4 py-2 text-gray-800 hover:bg-gray-100"
-                >
-                  Leadership Assessment
-                </Link>
-                <Link href="/hrconsultancy " className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-                  HR Consultancy
-                </Link>
-              </div>
-            </div>
-          </div>
+          <Link href="/services" className="text-white hover:text-gray-300 transition-colors">
+            Services
+          </Link>
           <div className="relative group">
             <button className="flex items-center text-white hover:text-gray-300 transition-colors">
               Expertise <ChevronDown size={16} className="ml-1" />
@@ -203,37 +188,13 @@ const Navbar = () => {
                   </div>
                 </div>
 
-                <div className="space-y-3">
-                  <div className="border-b border-gray-800 pb-2">
-                    <button
-                      className="flex items-center justify-between w-full text-white hover:text-gray-300 transition-colors py-2"
-                      onClick={(e) => {
-                        const target = e.currentTarget.nextElementSibling
-                        if (target) {
-                          target.classList.toggle("hidden")
-                        }
-                      }}
-                    >
-                      Services <ChevronDown size={16} />
-                    </button>
-                    <div className="pl-6 mt-2 space-y-2 hidden">
-                      <Link
-                        href="/services/leadership-assessment"
-                        className="block text-gray-300 hover:text-white transition-colors py-2"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Leadership Assessment
-                      </Link>
-                      <Link
-                        href="/hrconsultancy"
-                        className="block text-gray-300 hover:text-white transition-colors py-2"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        HR Consultancy
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+                <Link
+                  href="/services"
+                  className="block text-white hover:text-gray-300 transition-colors py-2 border-b border-gray-800"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  Services
+                </Link>
 
                 <div className="space-y-3">
                   <div className="border-b border-gray-800 pb-2">
@@ -299,4 +260,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
