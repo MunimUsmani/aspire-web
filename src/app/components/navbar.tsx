@@ -92,7 +92,7 @@ const Navbar = () => {
                 <Link href="/team" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                   Our Team
                 </Link>
-                <Link href="/mission" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                <Link href="/about" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                   About
                 </Link>
                 <Link href="/testimonials" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
