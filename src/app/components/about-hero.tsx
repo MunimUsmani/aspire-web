@@ -12,7 +12,7 @@ export default function AboutHero() {
       <div className="container mx-auto px-4 py-20 md:py-28 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[#0055b8]">
+            <h1 className="text-4xl md:text-3xl lg:text-5xl font-bold mb-6 text-[#0055b8]">
               Transforming <span className="text-[#c19a6b]">Recruitment</span> in the Middle East
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
@@ -53,7 +53,7 @@ export default function AboutHero() {
           <div className="order-1 md:order-2 relative">
             <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                src="/about.webp"
                 alt="Aspire HR Consultants team"
                 fill
                 className="object-cover"
