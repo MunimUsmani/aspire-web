@@ -1,5 +1,6 @@
 import AboutHero from "../components/about-hero";
 import Footer from "../components/footer";
+import MissionValues from "../components/mission-values";
 import Navbar from "../components/navbar";
 
 const Home: React.FC = () => {
@@ -8,6 +9,7 @@ const Home: React.FC = () => {
       <div>
         <Navbar />
         <AboutHero />
+        <MissionValues />
         <Footer />
       </div>
     </>
