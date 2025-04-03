@@ -47,7 +47,6 @@ export default function VideoShowcase() {
 
         <div className="max-w-5xl mx-auto">
           <div className="relative rounded-xl overflow-hidden shadow-2xl bg-black">
-            {/* Video placeholder - replace src with your actual video */}
             <video
               ref={videoRef}
               className="w-full aspect-video object-cover"
@@ -59,7 +58,7 @@ export default function VideoShowcase() {
               Your browser does not support the video tag.
             </video>
 
-            {/* Video overlay with play button (shows when video is paused) */}
+         
             {!isPlaying && (
               <div
                 className="absolute inset-0 bg-black/30 flex items-center justify-center cursor-pointer"
@@ -73,7 +72,6 @@ export default function VideoShowcase() {
               </div>
             )}
 
-            {/* Video controls */}
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 flex items-center justify-between">
               <button
                 onClick={togglePlay}
