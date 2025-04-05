@@ -8,18 +8,18 @@ const KestriaHero = () => {
       <header className="bg-[#0055b8] text-white py-4 px-6 md:px-12 lg:px-20 flex flex-col md:flex-row justify-between items-center h-auto md:h-28 space-y-4 md:space-y-0">
         <div className="text-center md:text-left md:flex-1">
           <h2 className="text-base sm:text-lg md:text-xl font-bold ml-0 md:ml-4">
-            We are Kestria, the world&apos;s largest executive search alliance.
+            We are Abells, dedicated to connecting talent with opportunities and empowering businesses to thrive.
           </h2>
         </div>
-        <div className="hidden md:block md:mr-64">
-          <Link href="/learn-more" className="text-white font-bold">
+        <div className="hidden md:block md:mr-70">
+          <Link href="/contact" className="text-white font-bold">
             Learn more
           </Link>
         </div>
         <div className="flex items-center">
           <div className="mr-0 md:mr-6">
-            <Link href="/" className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
-              Kestria
+            <Link href="/contact" className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">
+              Abells
             </Link>
           </div>
         </div>
@@ -39,7 +39,7 @@ const KestriaHero = () => {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl max-w-2xl mb-6 sm:mb-4">
-            We combine our local and global expertise, providing HR services tailored to your specific needs across 40+ countries. Our dedication to exclusive and tailored solutions distinguishes us, guaranteeing outstanding results for our partners.
+            We combine our local and global expertise, providing HR services tailored to your specific needs across the country. Our dedication to exclusive and tailored solutions distinguishes us, guaranteeing outstanding results for our partners.
           </p>
 
           <Link

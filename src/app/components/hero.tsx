@@ -17,7 +17,7 @@ const Hero = () => {
         {/* Main Content */}
         <div className="container mx-auto px-4 md:px-12 flex-1 flex flex-col justify-center">
           <div className="max-w-4xl pt-12">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Aspire HR Consultants</h1>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Abells HR Consultants</h1>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Fluent in finding leaders</h2>
             <Link
               href="/why-us"
@@ -34,14 +34,14 @@ const Hero = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             {/* Contact Info */}
             <div className="text-grey/80 mb-4 md:mb-0 text-base">
-              <span className="mr-2">+20 100 069 6450</span>
+              <span className="mr-2">+92 334 7371131</span>
               <span className="mx-2">|</span>
-              <span className="ml-2">aspire@aspire-hr.com</span>
+              <span className="ml-2">abells.hrsolutions@gmail.com</span>
             </div>
 
             {/* Social Media */}
             <div className="flex space-x-6">
-              <Link href="https://linkedin.com" className="text-white/80 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/company/abells-solution/" className="text-white/80 hover:text-white transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -58,22 +58,7 @@ const Hero = () => {
                 </svg>
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="https://twitter.com" className="text-white/80 hover:text-white transition-colors">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-5 h-5"
-                >
-                  <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-                </svg>
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="https://facebook.com" className="text-white/80 hover:text-white transition-colors">
+              <Link href="https://www.facebook.com/share/18uoHVdCDt/" className="text-white/80 hover:text-white transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -88,23 +73,7 @@ const Hero = () => {
                 </svg>
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="https://youtube.com" className="text-white/80 hover:text-white transition-colors">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="w-5 h-5"
-                >
-                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-                </svg>
-                <span className="sr-only">YouTube</span>
-              </Link>
-              <Link href="https://instagram.com" className="text-white/80 hover:text-white transition-colors">
+              <Link href="https://www.instagram.com/abellssolutions02?igsh=MXU2aXF3NXE3aWs2ZA==" className="text-white/80 hover:text-white transition-colors">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
