@@ -1,17 +1,21 @@
-import AboutHero from "../components/about-hero";
+
+import AboutIntro from "../components/about-intro";
+import CompanyHistory from "../components/company-history";
 import Footer from "../components/footer";
-import MissionValues from "../components/mission-values";
 import Navbar from "../components/navbar";
-import VideoShowcase from "../components/video-showcase";
+import TrustedBy from "../components/trustedby";
+import WhyChooseUs from "../components/whychooseus";
+
 
 const Home: React.FC = () => {
   return (
     <>
       <div>
         <Navbar />
-        <AboutHero />
-        <MissionValues />
-        <VideoShowcase />
+        <AboutIntro />
+        <CompanyHistory />
+       <WhyChooseUs />
+       <TrustedBy />
         <Footer />
       </div>
     </>
