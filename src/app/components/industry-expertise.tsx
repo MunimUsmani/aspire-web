@@ -1,77 +1,56 @@
-import Image from "next/image"
+import React from "react"
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Briefcase, Users, Building, GraduationCap, HeartPulse, ShieldCheck } from 'lucide-react'
 
-const industries = [
+const hrSpecializations = [
   {
     id: 1,
-    name: "Financial Services",
-    description:
-      "We connect financial institutions with top-tier talent across banking, investment, insurance, and fintech sectors, understanding the unique regulatory and compliance requirements.",
-    image: "/placeholder.svg?height=400&width=600",
+    name: "Talent Acquisition",
+    description: "We connect organizations with specialized HR professionals who excel in identifying, attracting, and securing top talent across industries.",
+    icon: Users,
     color: "bg-[#0055b8]",
-    positions: ["Chief Financial Officer", "Risk Management Director", "Compliance Manager", "Investment Analyst"],
+    areas: ["Executive Recruitment", "Technical Hiring", "Campus Recruitment", "Diversity Hiring"]
   },
   {
     id: 2,
-    name: "Technology & IT",
-    description:
-      "Our expertise in the rapidly evolving tech landscape helps companies secure innovative leaders and specialized technical talent to drive digital transformation initiatives.",
-    image: "/placeholder.svg?height=400&width=600",
+    name: "HR Business Partners",
+    description: "Our network includes strategic HR business partners who can align HR initiatives with organizational goals and drive business performance.",
+    icon: Briefcase,
     color: "bg-[#c19a6b]",
-    positions: [
-      "Chief Technology Officer",
-      "Software Development Manager",
-      "Cybersecurity Expert",
-      "Data Science Lead",
-    ],
+    areas: ["Strategic Planning", "Change Management", "Performance Consulting", "Leadership Development"]
   },
   {
     id: 3,
-    name: "Healthcare & Pharmaceuticals",
-    description:
-      "We understand the complex needs of healthcare organizations and help them find qualified professionals who can navigate the unique challenges of this highly regulated industry.",
-    image: "/placeholder.svg?height=400&width=600",
+    name: "Compensation & Benefits",
+    description: "We provide access to specialists who can design competitive compensation structures and comprehensive benefits packages.",
+    icon: Building,
     color: "bg-[#0055b8]",
-    positions: [
-      "Medical Director",
-      "Clinical Research Manager",
-      "Regulatory Affairs Specialist",
-      "Healthcare Administrator",
-    ],
+    areas: ["Salary Benchmarking", "Incentive Design", "Benefits Administration", "Total Rewards Strategy"]
   },
   {
     id: 4,
-    name: "Energy & Utilities",
-    description:
-      "Our deep knowledge of the energy sector allows us to identify leaders who can drive innovation and sustainability in traditional and renewable energy companies.",
-    image: "/placeholder.svg?height=400&width=600",
+    name: "Learning & Development",
+    description: "Our L&D specialists help organizations build effective training programs and foster continuous professional growth.",
+    icon: GraduationCap,
     color: "bg-[#c19a6b]",
-    positions: [
-      "Energy Operations Director",
-      "Sustainability Manager",
-      "Petroleum Engineer",
-      "Renewable Energy Specialist",
-    ],
+    areas: ["Training Design", "Leadership Programs", "Skills Assessment", "E-Learning Implementation"]
   },
   {
     id: 5,
-    name: "Retail & Consumer Goods",
-    description:
-      "We help retail and consumer goods companies find talent that can navigate changing consumer behaviors and drive growth in competitive markets.",
-    image: "/placeholder.svg?height=400&width=600",
+    name: "Employee Relations",
+    description: "We connect you with HR professionals who excel at building positive workplace cultures and resolving complex employee issues.",
+    icon: HeartPulse,
     color: "bg-[#0055b8]",
-    positions: ["Retail Operations Director", "Brand Manager", "E-commerce Lead", "Supply Chain Specialist"],
+    areas: ["Conflict Resolution", "Employee Engagement", "Policy Development", "Culture Building"]
   },
   {
     id: 6,
-    name: "Manufacturing & Industrial",
-    description:
-      "Our expertise in manufacturing helps companies find leaders who can optimize operations, implement new technologies, and drive efficiency improvements.",
-    image: "/placeholder.svg?height=400&width=600",
+    name: "Compliance & Legal",
+    description: "Our network includes HR legal experts who ensure organizational compliance with employment laws and regulations.",
+    icon: ShieldCheck,
     color: "bg-[#c19a6b]",
-    positions: ["Plant Manager", "Production Director", "Quality Assurance Lead", "Industrial Engineer"],
-  },
+    areas: ["Labor Law Compliance", "Policy Development", "Risk Management", "Workplace Investigations"]
+  }
 ]
 
 const IndustryExpertise = () => {
@@ -79,51 +58,90 @@ const IndustryExpertise = () => {
     <section className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1a1e2e] mb-6">Our Industry Specializations</h2>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1a1e2e] mb-6">
+              HR Specialization Areas
+            </h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              We've developed deep expertise across key industries, allowing us to understand the unique talent
-              requirements and challenges specific to each sector.
+              We connect organizations with specialized HR talent and accept business proposals across these key human resources domains.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {industries.map((industry) => (
-              <div
-                key={industry.id}
-                className="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {hrSpecializations.map((specialization) => (
+              <div 
+                key={specialization.id} 
+                className="bg-gray-50 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow border-l-4 border-l-[#0055b8]"
               >
-                <div className="relative h-48">
-                  <Image src={industry.image || "/placeholder.svg"} alt={industry.name} fill className="object-cover" />
-                  <div className={`absolute bottom-0 left-0 right-0 ${industry.color} py-2 px-4`}>
-                    <h3 className="text-white text-xl font-bold">{industry.name}</h3>
+                <div className="flex items-start mb-4">
+                  <div className={`${specialization.color} p-3 rounded-md mr-4 flex-shrink-0`}>
+                    <specialization.icon className="text-white w-5 h-5" />
+                  </div>
+                  <h3 className="text-xl font-bold text-[#1a1e2e]">{specialization.name}</h3>
+                </div>
+                
+                <p className="text-gray-700 text-sm mb-4">{specialization.description}</p>
+                
+                <div className="mb-4">
+                  <h4 className="text-xs font-semibold text-gray-500 mb-2">EXPERTISE AREAS:</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {specialization.areas.map((area, index) => (
+                      <span 
+                        key={index} 
+                        className="text-xs bg-white px-2 py-1 rounded border border-gray-200 text-[#0055b8]"
+                      >
+                        {area}
+                      </span>
+                    ))}
                   </div>
                 </div>
-
-                <div className="p-6">
-                  <p className="text-gray-700 mb-4">{industry.description}</p>
-
-                  <div className="mb-4">
-                    <h4 className="text-sm font-semibold text-gray-500 mb-2">KEY POSITIONS WE FILL:</h4>
-                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-1">
-                      {industry.positions.map((position, index) => (
-                        <li key={index} className="text-[#0055b8] text-sm flex items-start">
-                          <span className="mr-1">•</span> {position}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <Link
-                    href={`/expertise/${industry.name.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="inline-flex items-center text-[#0055b8] hover:text-[#0044a0] transition-colors group text-sm font-medium"
-                  >
-                    Learn more about our {industry.name} expertise
-                    <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Link>
-                </div>
+                
+                <Link 
+                  href={`/expertise/${specialization.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and')}`}
+                  className="inline-flex items-center text-[#0055b8] hover:text-[#0044a0] transition-colors group text-sm font-medium"
+                >
+                  View opportunities
+                  <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
               </div>
             ))}
+          </div>
+          
+          <div className="mt-12 bg-[#1a1e2e] rounded-lg p-6 md:p-8 text-white">
+            <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold mb-4">Submit Your HR Business Proposal</h3>
+                <p className="text-white/80 mb-6">
+                  Are you an HR professional or agency with innovative solutions? We're open to business proposals 
+                  that can enhance our service offerings and deliver exceptional value to our clients.
+                </p>
+                <Link 
+                  href="/submit-proposal" 
+                  className="inline-flex items-center bg-[#c19a6b] text-white px-4 py-2 rounded hover:bg-[#b08a5b] transition-colors"
+                >
+                  Submit Your Proposal
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white/10 rounded-lg p-4">
+                  <p className="text-2xl font-bold text-[#c19a6b]">48hrs</p>
+                  <p className="text-sm text-white/80">Proposal Response Time</p>
+                </div>
+                <div className="bg-white/10 rounded-lg p-4">
+                  <p className="text-2xl font-bold text-[#c19a6b]">100+</p>
+                  <p className="text-sm text-white/80">HR Partners</p>
+                </div>
+                <div className="bg-white/10 rounded-lg p-4">
+                  <p className="text-2xl font-bold text-[#c19a6b]">85%</p>
+                  <p className="text-sm text-white/80">Proposal Acceptance Rate</p>
+                </div>
+                <div className="bg-white/10 rounded-lg p-4">
+                  <p className="text-2xl font-bold text-[#c19a6b]">12+</p>
+                  <p className="text-sm text-white/80">Industries Served</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -132,4 +150,3 @@ const IndustryExpertise = () => {
 }
 
 export default IndustryExpertise
-

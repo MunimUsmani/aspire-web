@@ -20,7 +20,7 @@ const ExpertiseCTA = () => {
             href="/contact"
             className="inline-flex items-center bg-white text-[#0055b8] font-bold px-4 py-3 rounded hover:bg-gray-100 transition-colors"
           >
-            Schedule a Consultation
+           Contact Us
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </div>
