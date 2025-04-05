@@ -25,27 +25,27 @@ const HRRecruitment = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Executive search and placement</span>
+                  <span className="text-black">Executive search and placement</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Talent acquisition strategy</span>
+                  <span className="text-black">Talent acquisition strategy</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Candidate screening and assessment</span>
+                  <span className="text-black">Candidate screening and assessment</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Interview coordination</span>
+                  <span className="text-black">Interview coordination</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Salary negotiation support</span>
+                  <span className="text-black">Salary negotiation support</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Onboarding assistance</span>
+                  <span className="text-black">Onboarding assistance</span>
                 </li>
               </ul>
             </div>

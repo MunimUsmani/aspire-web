@@ -24,27 +24,27 @@ const ColdCalling = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Script development</span>
+                  <span className="text-black">Script development</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Prospect list building</span>
+                  <span className="text-black">Prospect list building</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Call scheduling</span>
+                  <span className="text-black">Call scheduling</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Objection handling</span>
+                  <span className="text-black">Objection handling</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Follow-up management</span>
+                  <span className="text-black">Follow-up management</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Performance tracking</span>
+                  <span className="text-black">Performance tracking</span>
                 </li>
               </ul>
             </div>

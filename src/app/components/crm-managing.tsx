@@ -24,27 +24,27 @@ const CRMManaging = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Database setup and configuration</span>
+                  <span className="text-black">Database setup and configuration</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Contact management</span>
+                  <span className="text-black">Contact management</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Pipeline tracking</span>
+                  <span className="text-black">Pipeline tracking</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Reporting and analytics</span>
+                  <span className="text-black">Reporting and analytics</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Process automation</span>
+                  <span className="text-black">Process automation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Integration with other tools</span>
+                  <span className="text-black">Integration with other tools</span>
                 </li>
               </ul>
             </div>

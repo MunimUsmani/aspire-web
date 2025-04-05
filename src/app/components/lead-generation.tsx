@@ -25,27 +25,27 @@ const LeadGeneration = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Ideal client profiling</span>
+                  <span className="text-black">Ideal client profiling</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Multi-channel outreach</span>
+                  <span className="text-black">Multi-channel outreach</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Content marketing</span>
+                  <span className="text-black">Content marketing</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Landing page optimization</span>
+                  <span className="text-black">Landing page optimization</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Lead qualification</span>
+                  <span className="text-black">Lead qualification</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Conversion strategy</span>
+                  <span className="text-black">Conversion strategy</span>
                 </li>
               </ul>
             </div>

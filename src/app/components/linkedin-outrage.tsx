@@ -25,27 +25,27 @@ const LinkedinOutrage = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Profile optimization</span>
+                  <span className="text-black">Profile optimization</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Content strategy development</span>
+                  <span className="text-black">Content strategy development</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Targeted connection campaigns</span>
+                  <span className="text-black">Targeted connection campaigns</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>InMail campaign management</span>
+                  <span className="text-black">InMail campaign management</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Engagement analytics</span>
+                  <span className="text-black">Engagement analytics</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Lead qualification</span>
+                  <span className="text-black">Lead qualification</span>
                 </li>
               </ul>
             </div>

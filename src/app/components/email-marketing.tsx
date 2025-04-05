@@ -25,27 +25,27 @@ const EmailMarketing = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Campaign strategy and planning</span>
+                  <span className="text-black">Campaign strategy and planning</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Email template design</span>
+                  <span className="text-black">Email template design</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Segmentation and personalization</span>
+                  <span className="text-black">Segmentation and personalization</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>A/B testing</span>
+                  <span className="text-black">A/B testing</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Performance analytics</span>
+                  <span className="text-black">Performance analytics</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Automation workflows</span>
+                  <span className="text-black">Automation workflows</span>
                 </li>
               </ul>
             </div>

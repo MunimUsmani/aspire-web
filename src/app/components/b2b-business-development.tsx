@@ -24,27 +24,27 @@ const B2BBusinessDevelopment = () => {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Market research and analysis</span>
+                  <span className="text-black">Market research and analysis</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Prospect identification</span>
+                  <span className="text-black">Prospect identification</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Partnership strategy</span>
+                  <span className="text-black">Partnership strategy</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Sales enablement</span>
+                  <span className="text-black">Sales enablement</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Account-based marketing</span>
+                  <span className="text-black">Account-based marketing</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0055b8] mr-2">•</span>
-                  <span>Growth planning</span>
+                  <span className="text-black">Growth planning</span>
                 </li>
               </ul>
             </div>
