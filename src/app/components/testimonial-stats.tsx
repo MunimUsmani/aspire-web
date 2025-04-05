@@ -2,26 +2,26 @@ import { Users, Building, Award, ThumbsUp } from "lucide-react"
 
 const stats = [
   {
-    value: "500+",
-    label: "Successful Placements",
+    value: "30+",
+    label: "Happy Clients",
     icon: Users,
     color: "bg-[#0055b8]",
   },
   {
-    value: "150+",
-    label: "Client Companies",
+    value: "60+",
+    label: "Positions Filled",
     icon: Building,
     color: "bg-[#c19a6b]",
   },
   {
-    value: "98%",
+    value: "85%",
     label: "Client Satisfaction",
     icon: ThumbsUp,
     color: "bg-[#0055b8]",
   },
   {
-    value: "15+",
-    label: "Industry Awards",
+    value: "4+ yrs",
+    label: "Industry Experience",
     icon: Award,
     color: "bg-[#c19a6b]",
   },

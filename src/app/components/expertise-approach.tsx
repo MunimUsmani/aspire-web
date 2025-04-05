@@ -104,20 +104,20 @@ const ExpertiseApproach = () => {
                 <h4 className="text-xl font-bold mb-4">Our Industry Expertise by the Numbers</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">12+</p>
+                    <p className="text-3xl font-bold text-[#c19a6b]">5+</p>
                     <p className="text-sm">Industries Served</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
                     <p className="text-3xl font-bold text-[#c19a6b]">85%</p>
-                    <p className="text-sm">Industry-Specific Placements</p>
+                    <p className="text-sm">Clients Satisfaction</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">200+</p>
-                    <p className="text-sm">Industry Specialists</p>
+                    <p className="text-3xl font-bold text-[#c19a6b]">4+ yrs</p>
+                    <p className="text-sm">Industry Experience</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">92%</p>
-                    <p className="text-sm">Client Satisfaction</p>
+                    <p className="text-3xl font-bold text-[#c19a6b]">30+</p>
+                    <p className="text-sm">Happy Clients</p>
                   </div>
                 </div>
               </div>

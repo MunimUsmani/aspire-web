@@ -125,19 +125,19 @@ const IndustryExpertise = () => {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white/10 rounded-lg p-4">
-                  <p className="text-2xl font-bold text-[#c19a6b]">48hrs</p>
-                  <p className="text-sm text-white/80">Proposal Response Time</p>
+                  <p className="text-2xl font-bold text-[#c19a6b]">30+</p>
+                  <p className="text-sm text-white/80">Happy Clients</p>
                 </div>
                 <div className="bg-white/10 rounded-lg p-4">
-                  <p className="text-2xl font-bold text-[#c19a6b]">100+</p>
-                  <p className="text-sm text-white/80">HR Partners</p>
+                  <p className="text-2xl font-bold text-[#c19a6b]">4+ yrs</p>
+                  <p className="text-sm text-white/80">Industry Expertise</p>
                 </div>
                 <div className="bg-white/10 rounded-lg p-4">
                   <p className="text-2xl font-bold text-[#c19a6b]">85%</p>
-                  <p className="text-sm text-white/80">Proposal Acceptance Rate</p>
+                  <p className="text-sm text-white/80">Clients Satisfaction</p>
                 </div>
                 <div className="bg-white/10 rounded-lg p-4">
-                  <p className="text-2xl font-bold text-[#c19a6b]">12+</p>
+                  <p className="text-2xl font-bold text-[#c19a6b]">5+</p>
                   <p className="text-sm text-white/80">Industries Served</p>
                 </div>
               </div>
