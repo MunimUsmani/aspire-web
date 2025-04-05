@@ -20,7 +20,7 @@ const Footer = () => {
 
       {/* Social Media */}
       <div className="flex justify-center space-x-6 mb-8">
-        <Link href="#" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+        <Link href="https://www.linkedin.com/company/abells-solution/" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
           <Linkedin size={18} />
         </Link>
         <Link href="https://www.facebook.com/share/18uoHVdCDt/" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors">

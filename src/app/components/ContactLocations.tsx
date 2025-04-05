@@ -23,16 +23,16 @@ const ContactLocations = () => {
               </div>
               <div className="p-4 sm:p-6">
                 <p className="text-gray-500 text-sm sm:text-base mb-2">Your point of contact</p>
-                <h3 className="text-blue-600 text-lg sm:text-xl font-bold mb-3 sm:mb-4">Rania Abdalla</h3>
+                <h3 className="text-blue-600 text-lg sm:text-xl font-bold mb-3 sm:mb-4">Balach Ali</h3>
                 
                 <div className="flex items-start mb-3">
                   <Phone className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-800 text-sm sm:text-base break-words">+971 50 196 1652</p>
+                  <p className="text-gray-800 text-sm sm:text-base break-words">0336-3243993</p>
                 </div>
                 
                 <div className="flex items-start mb-4 sm:mb-6">
                   <Mail className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
-                  <Link href="#" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
+                  <Link href="balachkubs@gmail.com" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
                     E-mail Contact
                   </Link>
                 </div>
@@ -62,16 +62,16 @@ const ContactLocations = () => {
               </div>
               <div className="p-4 sm:p-6">
                 <p className="text-gray-500 text-sm sm:text-base mb-2">Your point of contact</p>
-                <h3 className="text-blue-600 text-lg sm:text-xl font-bold mb-3 sm:mb-4">Ahmed Raouf</h3>
+                <h3 className="text-blue-600 text-lg sm:text-xl font-bold mb-3 sm:mb-4">Abbas Kareem</h3>
                 
                 <div className="flex items-start mb-3">
                   <Phone className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-800 text-sm sm:text-base break-words">+20 100 069 6450</p>
+                  <p className="text-gray-800 text-sm sm:text-base break-words">0316-2740179</p>
                 </div>
                 
                 <div className="flex items-start mb-4 sm:mb-6">
                   <Mail className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
-                  <Link href="#" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
+                  <Link href="Abbasrizvi0124@gmail.com" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
                     E-mail Contact
                   </Link>
                 </div> 
@@ -90,7 +90,7 @@ const ContactLocations = () => {
         
         {/* Social Media Icons */}
         <div className="flex justify-center mt-8 sm:mt-12 space-x-4 sm:space-x-6">
-          <Link href="#" aria-label="LinkedIn" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
+          <Link href="https://www.linkedin.com/company/abells-solution/" aria-label="LinkedIn" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-600 sm:w-6 sm:h-6 w-5 h-5">
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect x="2" y="9" width="4" height="12"></rect>
