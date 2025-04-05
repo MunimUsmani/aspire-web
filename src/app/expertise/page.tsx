@@ -1,4 +1,3 @@
-import CaseStudies from "../components/case-studies";
 import ExpertiseApproach from "../components/expertise-approach";
 import ExpertiseCTA from "../components/expertise-cta";
 import ExpertiseHero from "../components/expertise-hero";
@@ -15,7 +14,6 @@ const Home: React.FC = () => {
         <ExpertiseHero />
         <IndustryExpertise />
         <ExpertiseApproach />
-        <CaseStudies />
         <ExpertiseCTA />
         <Footer />
       </div>
