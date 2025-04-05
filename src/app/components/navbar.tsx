@@ -104,21 +104,9 @@ const Navbar = () => {
           <Link href="/services" className="text-white hover:text-gray-300 transition-colors">
             Services
           </Link>
-          <div className="relative group">
-            <button className="flex items-center text-white hover:text-gray-300 transition-colors">
-              Expertise <ChevronDown size={16} className="ml-1" />
-            </button>
-            <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-              <div className="py-1">
-                <Link href="/expertise/industries" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-                  Industries
-                </Link>
-                <Link href="/expertise/case-studies" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-                  Case Studies
-                </Link>
-              </div>
-            </div>
-          </div>
+          <Link href="/expertise" className="text-white hover:text-gray-300 transition-colors">
+            Expertise 
+          </Link>
           <Link href="/contact" className="text-white hover:text-gray-300 transition-colors">
             Contact
           </Link>
@@ -199,44 +187,12 @@ const Navbar = () => {
                   Services
                 </Link>
 
-                <div className="space-y-3">
-                  <div className="border-b border-gray-800 pb-2">
-                    <button
-                      className="flex items-center justify-between w-full text-white hover:text-gray-300 transition-colors py-2"
-                      onClick={(e) => {
-                        const target = e.currentTarget.nextElementSibling
-                        if (target) {
-                          target.classList.toggle("hidden")
-                        }
-                      }}
-                    >
-                      Expertise <ChevronDown size={16} />
-                    </button>
-                    <div className="pl-6 mt-2 space-y-2 hidden">
-                      <Link
-                        href="/expertise/industries"
-                        className="block text-gray-300 hover:text-white transition-colors py-2"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Industries
-                      </Link>
-                      <Link
-                        href="/expertise/case-studies"
-                        className="block text-gray-300 hover:text-white transition-colors py-2"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Case Studies
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-
                 <Link
-                  href="/insights"
+                  href="/expertise"
                   className="block text-white hover:text-gray-300 transition-colors py-2 border-b border-gray-800"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Insights
+                Expertise 
                 </Link>
 
                 <Link
