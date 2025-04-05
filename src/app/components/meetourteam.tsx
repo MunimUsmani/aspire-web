@@ -1,25 +1,24 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Mail, Phone, Smartphone } from "lucide-react"
+import { Mail, Phone } from "lucide-react"
 
 const teamMembers = [
   {
-    name: "Rania Abdalla",
-    title: "Founder & Managing Director",
-    image: "/raniaimg.webp",
+    name: "Abbas Kareem",
+    title: "CEO",
+    image: "/abbas.jpg",
     contacts: [
-      { type: "mobile", value: "+971 50 196 1652", icon: Smartphone },
-      { type: "phone", value: "+20 100 069 6450", icon: Phone },
-      { type: "email", label: "E-mail Contact", icon: Mail },
+      { type: "phone", value: "0316-2740179", icon: Phone },
+      { type: "email", label: "abbasrizvi0124@gmail.com", icon: Mail },
     ],
   },
   {
-    name: "Ahmed Raouf",
-    title: "Partner",
-    image: "/raoufimg.webp",
+    name: "Balach Ali",
+    title: "COO",
+    image: "/balach.jpg",
     contacts: [
-      { type: "phone", value: "+20 100 069 6450", icon: Phone },
-      { type: "email", label: "E-mail Contact", icon: Mail },
+      { type: "phone", value: "0336-3243993", icon: Phone },
+      { type: "email", label: "balachkubs@gmail.com", icon: Mail },
     ],
   },
 ]
@@ -32,10 +31,9 @@ const MeetOurTeam = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center text-[#c19a6b] mb-6">Meet Our Team</h2>
 
           <p className="text-center text-lg text-gray-800 mb-16 max-w-3xl mx-auto">
-            Aspire HRC team comes with a wealth of experience from diverse multinational companies.
+            Abells team comes with a wealth of experience from diverse multinational companies.
           </p>
 
-        
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             {teamMembers.slice(0, 2).map((member, index) => (
               <TeamMemberCard key={index} member={member} />
@@ -82,12 +80,12 @@ const TeamMemberCard = ({ member }: TeamMemberProps) => {
             {member.contacts.map((contact, index) => (
               <div key={index} className="flex items-center">
                 <contact.icon className="text-[#c19a6b] mr-2 h-5 w-5" />
-                {contact.value ? (
-                  <span className="text-gray-800">{contact.value}</span>
-                ) : (
-                  <Link href="#" className="text-gray-800 hover:text-[#0055b8]">
+                {contact.type === "email" ? (
+                  <Link href={`mailto:${contact.label}`} className="text-gray-800 hover:text-[#0055b8]">
                     {contact.label}
                   </Link>
+                ) : (
+                  <span className="text-gray-800">{contact.value}</span>
                 )}
               </div>
             ))}
@@ -99,4 +97,3 @@ const TeamMemberCard = ({ member }: TeamMemberProps) => {
 }
 
 export default MeetOurTeam
-

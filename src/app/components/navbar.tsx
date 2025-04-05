@@ -60,7 +60,7 @@ const Navbar = () => {
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-32">
             <Image
-              src="/Egypt-white.png"
+              src="/Logo.png"
               alt="Aspire HR Consultants"
               width={128}
               height={40}
@@ -128,7 +128,7 @@ const Navbar = () => {
               <div className="p-6 border-b border-gray-800">
                 <div className="relative h-10 w-32 mx-auto">
                   <Image
-                    src="/Egypt-white.png"
+                    src="/Logo.png"
                     alt="Aspire HR Consultants"
                     width={128}
                     height={40}

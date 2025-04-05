@@ -8,12 +8,12 @@ const focusbuilding = () => {
           </h2>
           
           <p className="text- md:text-xl text-center text-[#1a1e2e] mx-auto">
-          Led by Rania Abdalla, Founder and Managing Director of Kestria UAE, our team boasts an 
-          extensive track record in executive search, deeply rooted in Rania’s 25 years of HR experience 
-          with global giants like PepsiCo. Renowned for her leadership in Consumer & Retail Practice,
-           Rania has earned prestigious accolades, including the prestigious EmiratesBusiness Woman 
-           Award by HH SheikhAhmed Bin Saeed Al Maktoum and Egypt’s Top 50 Most Influential Women in '
-           2020.
+          Led by Abbas Kareem, CEO, and Balach Ali, COO, our team is driven by a shared vision to 
+          revolutionize the HR landscape. Together, they founded Aspire HR Consultants, an agency 
+          dedicated to increasing employment opportunities, connecting talent with the right organizations,
+           and fostering growth through innovative HR solutions. With a strong commitment to providing jobs
+           and empowering businesses, Abbas and Balach focus on building meaningful partnerships and
+            welcoming impactful business proposals that drive success for both individuals and companies.
           </p>
         </div>
       </section>
