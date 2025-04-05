@@ -8,12 +8,12 @@ const Footer = () => {
       {/* Contact Info */}
       <div className="text-center mb-6">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-2 text-white">
-          <a href="mailto:aspire@aspire-hr.com" className="hover:text-gray-300 transition-colors text-base">
-            aspire@aspire-hr.com
+          <a href="abells.hrsolutions@gmail.com" className="hover:text-gray-300 transition-colors text-base">
+          abells.hrsolutions@gmail.com
           </a>
           <span className="hidden sm:block text-blue-500 font-bold mx-2">|</span>
           <a href="tel:+201000696450" className="hover:text-gray-300 transition-colors text-base">
-            +20 100 069 6450
+          03347371131
           </a>
         </div>
       </div>
@@ -23,16 +23,10 @@ const Footer = () => {
         <Link href="#" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition-colors">
           <Linkedin size={18} />
         </Link>
-        <Link href="#" aria-label="Twitter" className="text-gray-400 hover:text-white transition-colors">
-          <Twitter size={18} />
-        </Link>
-        <Link href="#" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors">
+        <Link href="https://www.facebook.com/share/18uoHVdCDt/" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors">
           <Facebook size={18} />
         </Link>
-        <Link href="#" aria-label="YouTube" className="text-gray-400 hover:text-white transition-colors">
-          <Youtube size={18} />
-        </Link>
-        <Link href="#" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
+        <Link href="https://www.instagram.com/abellssolutions02?igsh=MXU2aXF3NXE3aWs2ZA==" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
           <Instagram size={18} />
         </Link>
       </div>

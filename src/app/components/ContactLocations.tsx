@@ -41,9 +41,7 @@ const ContactLocations = () => {
                 <div className="flex items-start">
                   <MapPin className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
                   <p className="text-gray-800 text-sm sm:text-base">
-                    Sharjah Media City<br />
-                    334069 Sharjah<br />
-                    UAE
+                    Karachi, Pakistan<br />
                   </p>
                 </div>
               </div>
@@ -82,9 +80,7 @@ const ContactLocations = () => {
                 <div className="flex items-start">
                   <MapPin className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
                   <p className="text-gray-800 text-sm sm:text-base">
-                    Silver Stars Businness Building Akhnatone Street<br />
-                    11835 Cairo<br />
-                    Egypt
+                    Karachi, Pakistan<br />
                   </p>
                 </div>
               </div>
@@ -101,23 +97,12 @@ const ContactLocations = () => {
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
           </Link>
-          <Link href="#" aria-label="Twitter" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 sm:w-6 sm:h-6 w-5 h-5">
-              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
-            </svg>
-          </Link>
-          <Link href="#" aria-label="Facebook" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
+          <Link href="https://www.facebook.com/share/18uoHVdCDt/" aria-label="Facebook" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-600 sm:w-6 sm:h-6 w-5 h-5">
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
             </svg>
           </Link>
-          <Link href="#" aria-label="YouTube" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-red-600 sm:w-6 sm:h-6 w-5 h-5">
-              <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
-              <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
-            </svg>
-          </Link>
-          <Link href="#" aria-label="Instagram" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
+          <Link href="https://www.instagram.com/abellssolutions02?igsh=MXU2aXF3NXE3aWs2ZA==" aria-label="Instagram" className="bg-white p-2 sm:p-3 rounded-full hover:bg-gray-100 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-pink-600 sm:w-6 sm:h-6 w-5 h-5">
               <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
