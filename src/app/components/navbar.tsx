@@ -55,15 +55,16 @@ const Navbar = () => {
         isScrolled ? "" : ""
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6 py-4 flex justify-between items-center">
+      <div className="w-full px-4 md:px-6 py-4 flex items-center justify-between max-w-screen-xl mx-auto">
+
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <div className="relative h-10 w-32">
+          <div className="relative h-10 w-32 mb-6">
             <Image
               src="/Logo.png"
               alt="Aspire HR Consultants"
               width={128}
-              height={40}
+              height={70}
               className="object-contain"
             />
           </div>
