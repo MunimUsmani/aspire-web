@@ -147,14 +147,6 @@ const TestimonialsSlider = () => {
     <section className="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#c19a6b] mb-6">What Our Clients Say</h2>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Discover how we've helped organizations across industries find exceptional talent and improve their HR
-              operations.
-            </p>
-          </div>
-
           {/* Testimonials carousel */}
           <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             {/* Carousel container */}

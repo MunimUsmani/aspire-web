@@ -1,3 +1,4 @@
+import TestimonialsHeading from "../components/client-say";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import TestimonialsCTA from "../components/testimonial-cta";
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
     <>
       <div>
         <Navbar />
+        <TestimonialsHeading />
         <TestimonialsSlider />
         <TestimonialsStats />
         <TestimonialsGrid />
