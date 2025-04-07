@@ -51,7 +51,7 @@ const steps = [
 const ExpertiseApproach = () => {
   return (
     <section className="py-16 md:py-24 bg-gray-50">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 md:px-12">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1a1e2e] mb-6">Our Industry-Focused Approach</h2>
@@ -73,7 +73,7 @@ const ExpertiseApproach = () => {
             ))}
           </div>
 
-          <div className="mt-20 bg-white rounded-lg shadow-lg p-8 md:p-12">
+          <div className="mt-20 bg-white rounded-lg shadow-lg p-6 md:p-12">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl md:text-3xl font-bold text-[#0055b8] mb-4">Why Industry Expertise Matters</h3>
@@ -83,20 +83,20 @@ const ExpertiseApproach = () => {
                 </p>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="text-black mr-2 text-xl">•</span>
+                    <span className="text-[#c19a6b] mr-2 text-xl">•</span>
                     <span className="text-black">Identify candidates with relevant industry experience</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-black mr-2 text-xl">•</span>
-                    <span className="text-black" >Understand industry-specific skills and qualifications</span>
+                    <span className="text-[#c19a6b] mr-2 text-xl">•</span>
+                    <span className="text-black">Understand industry-specific skills and qualifications</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-black mr-2 text-xl">•</span>
+                    <span className="text-[#c19a6b] mr-2 text-xl">•</span>
                     <span className="text-black">Navigate industry regulations and compliance requirements</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-black mr-2 text-xl">•</span>
-                    <span className="text-black" >Provide insights on industry trends and talent market conditions</span>
+                    <span className="text-[#c19a6b] mr-2 text-xl">•</span>
+                    <span className="text-black">Provide insights on industry trends and talent market conditions</span>
                   </li>
                 </ul>
               </div>
@@ -104,20 +104,20 @@ const ExpertiseApproach = () => {
                 <h4 className="text-xl font-bold mb-4">Our Industry Expertise by the Numbers</h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">5+</p>
-                    <p className="text-sm">Industries Served</p>
+                    <p className="text-3xl font-bold text-[#c19a6b] break-words">5+</p>
+                    <p className="text-sm whitespace-normal">Industries Served</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">85%</p>
-                    <p className="text-sm">Clients Satisfaction</p>
+                    <p className="text-3xl font-bold text-[#c19a6b] break-words">85%</p>
+                    <p className="text-sm whitespace-normal">Satisfied Clients</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">4+ yrs</p>
-                    <p className="text-sm">Industry Experience</p>
+                    <p className="text-3xl font-bold text-[#c19a6b] break-words">4+</p>
+                    <p className="text-xs sm:text-sm whitespace-normal">yrs Industry Experience</p>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
-                    <p className="text-3xl font-bold text-[#c19a6b]">30+</p>
-                    <p className="text-sm">Happy Clients</p>
+                    <p className="text-3xl font-bold text-[#c19a6b] break-words">30+</p>
+                    <p className="text-sm whitespace-normal">Happy Clients</p>
                   </div>
                 </div>
               </div>

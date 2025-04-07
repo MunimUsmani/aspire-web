@@ -55,7 +55,7 @@ const hrSpecializations = [
 
 const IndustryExpertise = () => {
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-16 md:py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
@@ -97,7 +97,7 @@ const IndustryExpertise = () => {
                 </div>
                 
                 <Link 
-                  href={`/expertise/${specialization.name.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and')}`}
+                  href="/contact"
                   className="inline-flex items-center text-[#0055b8] hover:text-[#0044a0] transition-colors group text-sm font-medium"
                 >
                   View opportunities

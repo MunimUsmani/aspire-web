@@ -208,7 +208,7 @@ const Navbar = () => {
               {/* Mobile Menu Footer */}
               <div className="p-6 border-t border-gray-800 mt-auto">
                 <div className="text-sm text-gray-400 text-center">
-                  © {new Date().getFullYear()} Aspire HR Consultants
+                  © {new Date().getFullYear()} Abells HR Recruiters 
                 </div>
               </div>
             </div>

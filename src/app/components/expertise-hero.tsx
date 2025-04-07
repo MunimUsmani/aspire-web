@@ -4,9 +4,8 @@ import { ArrowRight } from "lucide-react"
 const ExpertiseHero = () => {
   return (
     <section className="relative bg-[#1a1e2e] text-white py-20 md:py-28 lg:py-32 px-6 md:px-12 lg:px-20 overflow-hidden">
-
       <div className="max-w-5xl mx-auto relative z-10">
-        <div className="flex flex-col space-y-6">
+        <div className="flex flex-col space-y-6 mt-12 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             <span className="text-white">Industry </span>
             <span className="text-[#c19a6b]">Expertise</span>
@@ -20,7 +19,7 @@ const ExpertiseHero = () => {
             deliver exceptional HR solutions tailored to your sector's specific challenges.
           </p>
 
-          <div className="pt-4">
+          <div className="pt-4 pb-6 md:pb-0">
             <Link
               href="/contact"
               className="inline-flex items-center bg-[#0055b8] text-white px-6 py-3 rounded hover:bg-[#0044a0] transition-colors"

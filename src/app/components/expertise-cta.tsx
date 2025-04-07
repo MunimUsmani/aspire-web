@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react"
 
 const ExpertiseCTA = () => {
   return (
-    <section className="bg-[#0055b8] py-16 md:py-24 lg:py-32">
+    <section className="bg-[#0055b8] py-16 md:py-24 lg:py-32 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold text-[#e6b980] mb-8">
