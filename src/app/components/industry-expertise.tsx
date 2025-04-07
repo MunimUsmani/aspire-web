@@ -116,7 +116,7 @@ const IndustryExpertise = () => {
                   that can enhance our service offerings and deliver exceptional value to our clients.
                 </p>
                 <Link 
-                  href="/submit-proposal" 
+                  href="/contact" 
                   className="inline-flex items-center bg-[#c19a6b] text-white px-4 py-2 rounded hover:bg-[#b08a5b] transition-colors"
                 >
                   Submit Your Proposal

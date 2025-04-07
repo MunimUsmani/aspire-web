@@ -17,7 +17,7 @@ export default function Home() {
       <KestriaHero />
       <WhatWeDo />
       <GlobalExecutiveSearch />
-      <LatestInsights />
+      {/* <LatestInsights /> */}
       <SecureTalent />
       <Footer />
     </main>

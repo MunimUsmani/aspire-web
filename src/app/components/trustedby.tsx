@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function TrustedBy() {
   return (
@@ -12,9 +13,11 @@ export default function TrustedBy() {
               Partner with Abells Solutions and discover how our expertise can help you find the perfect talent for your
               organization.
             </p>
-            <button className="bg-white text-[#0055b8] hover:bg-[#c19a6b] hover:text-white transition-colors px-8 py-3 rounded-lg font-semibold shadow-md">
-              Contact Us Today
-            </button>
+            <Link href="/contact">
+              <button className="bg-white text-[#0055b8] hover:bg-[#c19a6b] hover:text-white transition-colors px-8 py-3 rounded-lg font-semibold shadow-md">
+                Contact Us Today
+              </button>
+            </Link>
           </div>
         </div>
       </div>

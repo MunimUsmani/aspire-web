@@ -32,7 +32,7 @@ const ContactLocations = () => {
                 
                 <div className="flex items-start mb-4 sm:mb-6">
                   <Mail className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
-                  <Link href="balachkubs@gmail.com" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
+                  <Link href="mailto:balachkubs@gmail.com" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
                     E-mail Contact
                   </Link>
                 </div>
@@ -71,7 +71,7 @@ const ContactLocations = () => {
                 
                 <div className="flex items-start mb-4 sm:mb-6">
                   <Mail className="text-[#c19a6b] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0" />
-                  <Link href="Abbasrizvi0124@gmail.com" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
+                  <Link href="mailto:Abbasrizvi0124@gmail.com" className="text-gray-800 text-sm sm:text-base hover:text-blue-600">
                     E-mail Contact
                   </Link>
                 </div> 

@@ -1,60 +1,35 @@
-import Image from "next/image"
 import Link from "next/link"
 
 const services = [
   {
-    title: "Executive Search",
+    title: "Recruitment",
     description:
-      "We blend personalized strategy with a clear, informed process, ensuring each executive search is uniquely tailored to align with your company's specific goals, culture, and values.",
-    imageUrl: "/executivesearch.webp",
+      "We provide comprehensive recruitment services to help you find the perfect talent for your organization. Our specialized team uses advanced sourcing techniques to identify, attract, and secure top candidates who align with your company culture and requirements.",
   },
   {
-    title: "Board Placement",
+    title: "Reward Management",
     description:
-      "We actively support you in strategically placing your board of directors based on skills that are future-ready, ensuring a diverse range of innovative ideas and expertise.",
-    imageUrl: "/boardplacement.webp",
+      "Our reward management services help you design and implement competitive compensation and benefits packages that attract and retain top talent. We analyze market trends and develop strategies that recognize employee contributions while maintaining cost efficiency.",
   },
   {
-    title: "Talent Advisory",
+    title: "Documentation",
     description:
-      "We offer market mapping and personality assessments to enhance leadership abilities and navigate competitive landscapes, positioning your team for success.",
-    imageUrl: "/talentadvisory.webp",
+      "We streamline your HR documentation processes, ensuring all employee records, policies, and procedures are properly maintained and compliant with relevant regulations. Our systematic approach reduces administrative burden while improving data accuracy and accessibility.",
   },
   {
-    title: "Leadership Assessments",
+    title: "Attendance Record",
     description:
-      "We design customized programs to nurture leadership potential, helping your executives develop the skills needed to drive organizational transformation and growth.",
-    imageUrl: "/leadership.webp",
+      "Our attendance management solutions help you track and optimize employee attendance with precision. We implement efficient systems that reduce time theft, improve scheduling, and provide valuable insights into attendance patterns to enhance workforce productivity.",
   },
   {
-    title: "Interim",
+    title: "HR Functions",
     description:
-      "We help organizations prepare for the future by identifying and developing internal talent to ensure leadership continuity and minimize disruption during transitions.",
-    imageUrl: "/interim.webp",
+      "We offer comprehensive support across all HR functions, from onboarding to offboarding and everything in between. Our services ensure your HR operations run smoothly, allowing you to focus on strategic initiatives while we handle the day-to-day HR responsibilities.",
   },
   {
-    title: "HR Consultancy",
+    title: "Performance Management",
     description:
-      "We provide one-on-one guidance to executives, helping them maximize their potential, overcome challenges, and develop strategies for personal and professional growth.",
-    imageUrl: "/consultancy.webp",
-  },
-  {
-    title: "Women Mentorship ",
-    description:
-      "We collaborate with organizations to develop inclusive hiring practices and build diverse leadership teams that drive innovation and reflect the global marketplace.",
-    imageUrl: "/womenmentorship.webp",
-  },
-  {
-    title: "Training Experiences",
-    description:
-      "We assist companies in structuring their leadership teams to align with strategic objectives, optimize performance, and adapt to changing market conditions.",
-    imageUrl: "/trainingexperiences.webp",
-  },
-  {
-    title: "Digital HR Solutions",
-    description:
-      "Enhance your employer branding, recruitment, and performance with innovative, integrated solutions for today’s HR needs.",
-    imageUrl: "/hrsolutions.webp",
+      "Our performance management services help you establish effective systems for evaluating, developing, and maximizing employee potential. We design customized frameworks that align individual goals with organizational objectives to drive continuous improvement.",
   },
 ]
 
@@ -66,15 +41,12 @@ const WhatWeDo = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-white rounded-sm shadow-sm overflow-hidden flex flex-col">
-              <div className="h-[200px] relative">
-                <Image src={service.imageUrl || "/placeholder.svg"} alt={service.title} fill className="object-cover" />
-              </div>
+            <div key={index} className="bg-white rounded-sm shadow-sm overflow-hidden flex flex-col h-full">
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl text-[#c19a6b] mb-4 font-bold">{service.title}</h3>
                 <p className="text-gray-700 mb-6 flex-grow">{service.description}</p>
                 <Link
-                  href="#"
+                  href="/services"
                   className="text-blue-600 flex items-center mt-auto w-fit border border-blue-600 rounded px-4 py-2 hover:bg-blue-50 transition-colors"
                 >
                   Find out more
@@ -98,3 +70,4 @@ const WhatWeDo = () => {
 }
 
 export default WhatWeDo
+

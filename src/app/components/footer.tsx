@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Linkedin, Twitter, Facebook, Youtube, Instagram } from 'lucide-react';
+import { Linkedin, Facebook, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Contact Info */}
       <div className="text-center mb-6">
         <div className="flex flex-col sm:flex-row justify-center items-center gap-2 text-white">
-          <a href="abells.hrsolutions@gmail.com" className="hover:text-gray-300 transition-colors text-base">
+          <a href="mailto:abells.hrsolutions@gmail.com" className="hover:text-gray-300 transition-colors text-base">
           abells.hrsolutions@gmail.com
           </a>
           <span className="hidden sm:block text-blue-500 font-bold mx-2">|</span>

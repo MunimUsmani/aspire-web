@@ -17,7 +17,7 @@ const Hero = () => {
         {/* Main Content */}
         <div className="container mx-auto px-4 md:px-12 flex-1 flex flex-col justify-center">
           <div className="max-w-4xl pt-12">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Abells HR Consultants</h1>
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Abells HR Recruiters</h1>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Fluent in finding leaders</h2>
             <Link
               href="/why-us"

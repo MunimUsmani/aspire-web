@@ -35,8 +35,8 @@ const ContactForm = () => {
             We are always ready to address your talent needs. We'll be pleased to
             provide professional, responsive, reliable, and personalized services. For
             any inquiries, feel free to email us at{" "}
-            <a href="mailto:aspire@aspire-hr.com" className="text-blue-600 hover:underline">
-              aspire@aspire-hr.com
+            <a href="mailto:abells.hrsolutions@gmail.com" className="text-blue-600 hover:underline">
+            abells.hrsolutions@gmail.com
             </a>{" "}
             or complete this contact form:
           </p>
