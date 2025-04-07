@@ -18,7 +18,9 @@ const Hero = () => {
         <div className="container mx-auto px-4 md:px-12 flex-1 flex flex-col justify-center">
           <div className="max-w-4xl pt-12">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Abells HR Recruiters</h1>
-            <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">Fluent in finding leaders</h2>
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-4 pl-6">
+              Fluent in finding leaders
+            </h2>
             <Link
               href="/why-us"
               className="inline-flex items-center text-white text-2xl md:text-3xl lg:text-4xl group pl-6"
@@ -30,18 +32,22 @@ const Hero = () => {
         </div>
 
         {/* Footer */}
-        <div className="container mx-auto px-6 md:px-12 py-8">
+        <div className="container mx-auto px-4 md:px-12 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            {/* Contact Info */}
-            <div className="text-grey/80 mb-4 md:mb-0 text-base">
-              <span className="mr-2">+92 334 7371131</span>
-              <span className="mx-2">|</span>
-              <span className="ml-2">abells.hrsolutions@gmail.com</span>
+            <div className="text-white/80 mb-4 md:mb-0 text-sm md:text-base text-center md:text-left">
+              <div className="flex flex-col md:flex-row">
+                <span className="mb-1 md:mb-0 md:mr-2">+92 334 7371131</span>
+                <span className="hidden md:inline mx-2">|</span>
+                <span className="md:ml-2">abells.hrsolutions@gmail.com</span>
+              </div>
             </div>
 
             {/* Social Media */}
             <div className="flex space-x-6">
-              <Link href="https://www.linkedin.com/company/abells-solution/" className="text-white/80 hover:text-white transition-colors">
+              <Link
+                href="https://www.linkedin.com/company/abells-solution/"
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -58,7 +64,10 @@ const Hero = () => {
                 </svg>
                 <span className="sr-only">LinkedIn</span>
               </Link>
-              <Link href="https://www.facebook.com/share/18uoHVdCDt/" className="text-white/80 hover:text-white transition-colors">
+              <Link
+                href="https://www.facebook.com/share/18uoHVdCDt/"
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -73,7 +82,10 @@ const Hero = () => {
                 </svg>
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="https://www.instagram.com/abellssolutions02?igsh=MXU2aXF3NXE3aWs2ZA==" className="text-white/80 hover:text-white transition-colors">
+              <Link
+                href="https://www.instagram.com/abellssolutions02?igsh=MXU2aXF3NXE3aWs2ZA=="
+                className="text-white/80 hover:text-white transition-colors"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
