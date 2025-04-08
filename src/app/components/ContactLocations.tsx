@@ -8,17 +8,17 @@ const ContactLocations = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-            {/* Dubai Card */}
+           
             <div className="bg-white rounded-md overflow-hidden shadow-sm max-w-md mx-auto w-full">
               <div className="relative h-48 sm:h-56">
                 <Image
-                  src="/uae-dubai.jpg"
+                  src="/mazar.jpg"
                   alt="Dubai skyline at night"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-0 left-0 p-3 sm:p-4 bg-gradient-to-t from-black/70 to-transparent w-full">
-                  <h2 className="text-white text-xl sm:text-2xl font-bold">Dubai (Headquarters)</h2>
+                  <h2 className="text-white text-xl sm:text-2xl font-bold">Karachi</h2>
                 </div>
               </div>
               <div className="p-4 sm:p-6">
@@ -47,17 +47,17 @@ const ContactLocations = () => {
               </div>
             </div>
             
-            {/* Cairo Card */}
+            
             <div className="bg-white rounded-md overflow-hidden shadow-sm max-w-md mx-auto w-full">
               <div className="relative h-48 sm:h-56">
                 <Image
-                  src="/egypt-cairo.jpg"
+                  src="/mazar.jpg"
                   alt="Cairo skyline with Nile river"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-0 left-0 p-3 sm:p-4 bg-gradient-to-t from-black/70 to-transparent w-full">
-                  <h2 className="text-white text-xl sm:text-2xl font-bold">Cairo</h2>
+                  <h2 className="text-white text-xl sm:text-2xl font-bold">Karachi</h2>
                 </div>
               </div>
               <div className="p-4 sm:p-6">
