@@ -52,21 +52,14 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "" : ""
+        isScrolled ? "bg-black/80 backdrop-blur-sm" : "bg-transparent"
       }`}
     >
       <div className="w-full px-4 md:px-6 py-4 flex items-center justify-between max-w-screen-xl mx-auto">
-
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-32 mb-6">
-            <Image
-              src="/Logo.png"
-              alt="Aspire HR Consultants"
-              width={128}
-              height={70}
-              className="object-contain"
-            />
+            <Image src="/Logo.png" alt="Aspire HR Consultants" width={128} height={70} className="object-contain" />
           </div>
         </Link>
 
@@ -106,7 +99,7 @@ const Navbar = () => {
             Services
           </Link>
           <Link href="/expertise" className="text-white hover:text-gray-300 transition-colors">
-            Expertise 
+            Expertise
           </Link>
           <Link href="/contact" className="text-white hover:text-gray-300 transition-colors">
             Contact
@@ -174,7 +167,7 @@ const Navbar = () => {
                         className="block text-gray-300 hover:text-white transition-colors py-2"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        About 
+                        About
                       </Link>
                       <Link
                         href="/testimonials"
@@ -200,7 +193,7 @@ const Navbar = () => {
                   className="block text-white hover:text-gray-300 transition-colors py-2 border-b border-gray-800"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                Expertise 
+                  Expertise
                 </Link>
 
                 <Link
@@ -215,7 +208,7 @@ const Navbar = () => {
               {/* Mobile Menu Footer */}
               <div className="p-6 border-t border-gray-800 mt-auto">
                 <div className="text-sm text-gray-400 text-center">
-                  © {new Date().getFullYear()} Abells HR Recruiters 
+                  © {new Date().getFullYear()} Abells HR Recruiters
                 </div>
               </div>
             </div>
