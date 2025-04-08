@@ -6,7 +6,7 @@ const ServicesHero = () => {
     <section className="relative bg-[#1a1e2e] text-white py-20 md:py-28 lg:py-32 px-6 md:px-12 lg:px-20">
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-16 md:mt-0">
             <span className="text-white">Our </span>
             <span className="text-[#c19a6b]">HR Services</span>
           </h1>
