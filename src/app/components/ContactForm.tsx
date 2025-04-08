@@ -1,7 +1,9 @@
-"use client";
+"use client"
 
-import { useState } from "react";
-import { ArrowRight } from 'lucide-react';
+import type React from "react"
+
+import { useState } from "react"
+import { ArrowRight } from "lucide-react"
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -11,32 +13,35 @@ const ContactForm = () => {
     phone: "",
     company: "",
     text: "",
-  });
+  })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target
     setFormData((prev) => ({
       ...prev,
       [name]: value,
-    }));
-  };
+    }))
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission logic here
-    console.log(formData);
-  };
+    e.preventDefault()
+    // Log form data to console (you can keep or remove this)
+    console.log(formData)
+
+    // Redirect to Google Form
+    window.location.href =
+      "https://docs.google.com/forms/d/e/1FAIpQLSd4YVkyXd3FO0m5KDxZZ7pExCYI8fYUFVOHxRNBTHpGKnS-zg/viewform"
+  }
 
   return (
     <section className="bg-gray-100 py-16">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-10">
           <p className="text-gray-800 text-lg">
-            We are always ready to address your talent needs. We'll be pleased to
-            provide professional, responsive, reliable, and personalized services. For
-            any inquiries, feel free to email us at{" "}
+            We are always ready to address your talent needs. We'll be pleased to provide professional, responsive,
+            reliable, and personalized services. For any inquiries, feel free to email us at{" "}
             <a href="mailto:abells.hrsolutions@gmail.com" className="text-blue-600 hover:underline">
-            abells.hrsolutions@gmail.com
+              abells.hrsolutions@gmail.com
             </a>{" "}
             or complete this contact form:
           </p>
@@ -147,7 +152,7 @@ const ContactForm = () => {
         </form>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ContactForm;
+export default ContactForm
