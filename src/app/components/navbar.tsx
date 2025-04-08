@@ -163,18 +163,25 @@ const Navbar = () => {
                     </button>
                     <div className="pl-6 mt-2 space-y-2 hidden">
                       <Link
-                        href="/about/team"
+                        href="team"
                         className="block text-gray-300 hover:text-white transition-colors py-2"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         Our Team
                       </Link>
                       <Link
-                        href="/about/mission"
+                        href="/about"
                         className="block text-gray-300 hover:text-white transition-colors py-2"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        Our Mission
+                        About 
+                      </Link>
+                      <Link
+                        href="/testimonials"
+                        className="block text-gray-300 hover:text-white transition-colors py-2"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        Testimonials
                       </Link>
                     </div>
                   </div>
