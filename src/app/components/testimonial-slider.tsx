@@ -1,57 +1,43 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
-import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react"
-import Image from "next/image"
+import { Star, ChevronLeft, ChevronRight, Quote, User } from "lucide-react"
 
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    position: "HR Director, Global Tech Inc.",
+    name: "Hamza Zafar",
+    position: "MoxEdge, CEO",
     rating: 5,
-    text: "Aspire HR Consultants transformed our recruitment process. Their team understood our company culture perfectly and found candidates who not only had the right skills but also aligned with our values. The quality of candidates they presented was exceptional.",
-    image: "/rania.webp",
+    text: "Abells HR Recruiters transformed our recruitment process. Their team understood our company culture perfectly and found candidates who not only had the right skills but also aligned with our values. The quality of candidates they presented was exceptional.",
   },
   {
     id: 2,
-    name: "Mohammed Al-Farsi",
-    position: "CEO, Emirates Solutions",
+    name: "Hasan Tabish",
+    position: "CEO, 360 Marketing Mentor",
     rating: 5,
-    text: "Working with Aspire HR has been a game-changer for our executive search needs. Their deep understanding of the regional market and global talent pool helped us secure top-tier leadership that has driven our company forward. I highly recommend their services.",
-    image: "/tara.webp",
+    text: "Working with Abells HR has been a game-changer for our executive search needs. Their deep understanding of the regional market and local talent pool helped us secure top-tier leadership that has driven our company forward. I highly recommend their services.",
   },
   {
     id: 3,
-    name: "Priya Mehta",
-    position: "Operations Manager, Sunrise Group",
+    name: "Muhammad Talha",
+    position: "CEO, TechFlex",
     rating: 4,
-    text: "The LinkedIn outreach campaign designed by Aspire HR generated impressive results for our talent acquisition efforts. Their strategic approach and attention to detail helped us connect with qualified professionals we wouldn't have reached otherwise.",
-    image: "/steven.webp",
+    text: "The LinkedIn outreach campaign designed by Abells HR generated impressive results for our talent acquisition efforts. Their strategic approach and attention to detail helped us connect with qualified professionals we wouldn't have reached otherwise.",
   },
   {
     id: 4,
-    name: "David Chen",
-    position: "Talent Acquisition Lead, Innovate Partners",
+    name: "Muhammad Humayun Sarfraz",
+    position: "CEO, Growth Mind Technologies",
     rating: 5,
-    text: "Aspire HR Consultants provided exceptional service in helping us build our regional team. Their understanding of cultural nuances and industry-specific requirements made the recruitment process smooth and effective. The candidates they presented were all high-caliber professionals.",
-    image: "/travis.webp",
+    text: "Abells HR Recruiters provided exceptional service in helping us build our regional team. Their understanding of cultural nuances and industry-specific requirements made the recruitment process smooth and effective. The candidates they presented were all high-caliber professionals.",
   },
   {
     id: 5,
-    name: "Layla Mahmoud",
-    position: "Marketing Director, Creative Solutions",
+    name: "Sameer Siddiqi",
+    position: "CEO, EZY business Applications",
     rating: 5,
-    text: "The team at Aspire HR went above and beyond to understand our unique needs. Their CRM management and lead generation services have significantly improved our business development process. They're not just service providers; they're true partners in our growth.",
-    image: "/lince.webp",
-  },
-  {
-    id: 6,
-    name: "Robert Williams",
-    position: "Managing Partner, Global Ventures",
-    rating: 4,
-    text: "Aspire HR's cold calling campaign was remarkably effective. Their team was professional, persistent, and represented our brand perfectly. We saw a significant increase in qualified leads and eventually closed several major deals as a result of their work.",
-    image: "/mohammed.webp",
+    text: "The team at Abells HR went above and beyond to understand our unique needs. Their CRM management and lead generation services have significantly improved our business development process. They're not just service providers; they're true partners in our growth.",
   },
 ]
 
@@ -161,13 +147,8 @@ const TestimonialsSlider = () => {
                   >
                     <div className="bg-white rounded-xl shadow-lg p-6 h-full border border-gray-100">
                       <div className="flex items-center mb-4">
-                        <div className="relative w-14 h-14 rounded-full overflow-hidden mr-4 flex-shrink-0 border-2 border-[#0055b8]">
-                          <Image
-                            src={testimonials[prev].image || "/placeholder.svg"}
-                            alt={testimonials[prev].name}
-                            fill
-                            className="object-cover"
-                          />
+                        <div className="w-14 h-14 rounded-full flex-shrink-0 mr-4 bg-[#0055b8]/10 flex items-center justify-center">
+                          <User className="w-8 h-8 text-[#0055b8]" />
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-[#0055b8]">{testimonials[prev].name}</h3>
@@ -186,13 +167,8 @@ const TestimonialsSlider = () => {
                     <div className="bg-white rounded-xl shadow-xl p-8 h-full border border-gray-100 relative">
                       <Quote className="absolute top-6 right-6 w-10 h-10 text-[#c19a6b]/20" />
                       <div className="flex items-center mb-6">
-                        <div className="relative w-20 h-20 rounded-full overflow-hidden mr-5 flex-shrink-0 border-2 border-[#0055b8]">
-                          <Image
-                            src={testimonials[current].image || "/placeholder.svg"}
-                            alt={testimonials[current].name}
-                            fill
-                            className="object-cover"
-                          />
+                        <div className="w-20 h-20 rounded-full flex-shrink-0 mr-5 bg-[#0055b8]/10 flex items-center justify-center">
+                          <User className="w-10 h-10 text-[#0055b8]" />
                         </div>
                         <div>
                           <h3 className="text-xl font-bold text-[#0055b8]">{testimonials[current].name}</h3>
@@ -211,13 +187,8 @@ const TestimonialsSlider = () => {
                   >
                     <div className="bg-white rounded-xl shadow-lg p-6 h-full border border-gray-100">
                       <div className="flex items-center mb-4">
-                        <div className="relative w-14 h-14 rounded-full overflow-hidden mr-4 flex-shrink-0 border-2 border-[#0055b8]">
-                          <Image
-                            src={testimonials[next].image || "/placeholder.svg"}
-                            alt={testimonials[next].name}
-                            fill
-                            className="object-cover"
-                          />
+                        <div className="w-14 h-14 rounded-full flex-shrink-0 mr-4 bg-[#0055b8]/10 flex items-center justify-center">
+                          <User className="w-8 h-8 text-[#0055b8]" />
                         </div>
                         <div>
                           <h3 className="text-lg font-bold text-[#0055b8]">{testimonials[next].name}</h3>
@@ -236,13 +207,8 @@ const TestimonialsSlider = () => {
                   <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100 relative">
                     <Quote className="absolute top-4 right-4 w-8 h-8 text-[#c19a6b]/20" />
                     <div className="flex items-center mb-4">
-                      <div className="relative w-16 h-16 rounded-full overflow-hidden mr-4 flex-shrink-0 border-2 border-[#0055b8]">
-                        <Image
-                          src={testimonials[current].image || "/placeholder.svg"}
-                          alt={testimonials[current].name}
-                          fill
-                          className="object-cover"
-                        />
+                      <div className="w-16 h-16 rounded-full flex-shrink-0 mr-4 bg-[#0055b8]/10 flex items-center justify-center">
+                        <User className="w-8 h-8 text-[#0055b8]" />
                       </div>
                       <div>
                         <h3 className="text-lg font-bold text-[#0055b8]">{testimonials[current].name}</h3>
@@ -296,4 +262,3 @@ const TestimonialsSlider = () => {
 }
 
 export default TestimonialsSlider
-

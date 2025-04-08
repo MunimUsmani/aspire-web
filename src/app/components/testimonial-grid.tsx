@@ -1,39 +1,33 @@
-import { Star } from "lucide-react"
-import Image from "next/image"
-
+import { Star, User } from "lucide-react"
 
 const gridTestimonials = [
   {
     id: 7,
-    name: "Fatima Al-Zahra",
-    position: "Head of HR, Gulf Enterprises",
+    name: "Faseeh ur Rehman",
+    position: "CEO, Pals Innovation",
     rating: 5,
-    text: "Aspire HR's email marketing campaigns have consistently delivered high engagement rates. Their understanding of our target audience and ability to craft compelling messages has been invaluable.",
-    image: "/shifting.webp",
+    text: "Abells HR's email marketing campaigns have consistently delivered high engagement rates. Their understanding of our target audience and ability to craft compelling messages has been invaluable.",
   },
   {
     id: 8,
-    name: "John Mathews",
-    position: "Regional Director, International Corp",
+    name: "Rashid Aslam",
+    position: "CEO, Ammani Traders",
     rating: 5,
-    text: "The business development strategies implemented by Aspire HR have opened new markets for us. Their team's expertise and dedication to our success have made them an essential partner.",
-    image: "/steven.webp",
+    text: "The business development strategies implemented by Abells HR have opened new markets for us. Their team's expertise and dedication to our success have made them an essential partner.",
   },
   {
     id: 9,
-    name: "Aisha Rahman",
-    position: "CEO, Tech Innovators",
+    name: "Hunain Faisal",
+    position: "CEO, TechXon",
     rating: 4,
-    text: "Working with Aspire HR has been a seamless experience. Their recruitment process is thorough, and they consistently deliver candidates who exceed our expectations.",
-    image: "/rania.webp",
+    text: "Working with Abells HR has been a seamless experience. Their recruitment process is thorough, and they consistently deliver candidates who exceed our expectations.",
   },
   {
     id: 10,
-    name: "Michael Zhang",
-    position: "COO, Global Solutions",
+    name: "Muhammad Khalid",
+    position: "CEO, Fusion Tech",
     rating: 5,
-    text: "Aspire HR's talent acquisition team has an exceptional ability to understand our technical requirements and find candidates with the perfect skill set. They've become our go-to recruitment partner.",
-    image: "/tara.webp",
+    text: "Abells HR's talent acquisition team has an exceptional ability to understand our technical requirements and find candidates with the perfect skill set. They've become our go-to recruitment partner.",
   },
 ]
 
@@ -56,13 +50,8 @@ const TestimonialsGrid = () => {
             {gridTestimonials.map((testimonial) => (
               <div key={testimonial.id} className="bg-gray-50 rounded-lg p-6 shadow-sm">
                 <div className="flex items-start mb-4">
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4 flex-shrink-0">
-                    <Image
-                      src={testimonial.image || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      fill
-                      className="object-cover"
-                    />
+                  <div className="w-12 h-12 rounded-full mr-4 flex-shrink-0 bg-[#0055b8]/10 flex items-center justify-center">
+                    <User className="w-6 h-6 text-[#0055b8]" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-[#0055b8]">{testimonial.name}</h3>
@@ -81,4 +70,3 @@ const TestimonialsGrid = () => {
 }
 
 export default TestimonialsGrid
-
