@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="relative h-screen w-full overflow-hidden">
       {/* Video Background */}
       <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover">
-        <source src="/Egypt-home-loop-03.mp4" type="video/mp4" />
+        <source src="/hero-video.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
