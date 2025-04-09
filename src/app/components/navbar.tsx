@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-32 mb-6">
-            <Image src="/Logo.png" alt="logo" width={128} height={70} priority={true} className="object-contain" />
+            <Image src="/logo/logo.png" alt="logo" width={128} height={70} priority={true} className="object-contain" />
           </div>
         </Link>
 
@@ -122,7 +122,7 @@ const Navbar = () => {
               <div className="p-6 border-b border-gray-800">
                 <div className="relative h-10 w-32 mx-auto">
                   <Image
-                    src="/Logo.png"
+                    src="/logo/logo.png"
                     alt="logo"
                     width={128}
                     height={40}
