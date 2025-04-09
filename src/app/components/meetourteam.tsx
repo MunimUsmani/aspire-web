@@ -1,6 +1,7 @@
+import type React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Mail, Phone } from "lucide-react"
+import { Mail, Phone, Linkedin } from "lucide-react"
 
 const teamMembers = [
   {
@@ -10,6 +11,12 @@ const teamMembers = [
     contacts: [
       { type: "phone", value: "0316-2740179", icon: Phone },
       { type: "email", label: "abbasrizvi0124@gmail.com", icon: Mail },
+      {
+        type: "linkedin",
+        url: "https://www.linkedin.com/in/abbas-kareem-30b5a226b/",
+        label: "LinkedIn Profile",
+        icon: Linkedin,
+      },
     ],
   },
   {
@@ -19,6 +26,12 @@ const teamMembers = [
     contacts: [
       { type: "phone", value: "0336-3243993", icon: Phone },
       { type: "email", label: "balachkubs@gmail.com", icon: Mail },
+      {
+        type: "linkedin",
+        url: "https://www.linkedin.com/in/balach-ali-phr-shrm-/",
+        label: "LinkedIn Profile",
+        icon: Linkedin,
+      },
     ],
   },
 ]
@@ -54,6 +67,7 @@ interface TeamMemberProps {
       type: string
       value?: string
       label?: string
+      url?: string
       icon: React.ElementType // Updated type for the icon
     }[]
   }
@@ -82,6 +96,15 @@ const TeamMemberCard = ({ member }: TeamMemberProps) => {
                 <contact.icon className="text-[#c19a6b] mr-2 h-5 w-5" />
                 {contact.type === "email" ? (
                   <Link href={`mailto:${contact.label}`} className="text-gray-800 hover:text-[#0055b8]">
+                    {contact.label}
+                  </Link>
+                ) : contact.type === "linkedin" ? (
+                  <Link
+                    href={contact.url || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-800 hover:text-[#0055b8]"
+                  >
                     {contact.label}
                   </Link>
                 ) : (
