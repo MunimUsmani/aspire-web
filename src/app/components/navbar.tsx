@@ -123,7 +123,7 @@ const Navbar = () => {
                 <div className="relative h-10 w-32 mx-auto">
                   <Image
                     src="/Logo.png"
-                    alt="Aspire HR Consultants"
+                    alt="logo"
                     width={128}
                     height={40}
                     className="object-contain"
