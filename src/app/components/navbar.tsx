@@ -59,12 +59,12 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-32 mb-6">
-            <Image src="/Logo.png" alt="logo" width={128} height={70} className="object-contain" />
+            <Image src="/Logo.png" alt="logo" width={128} height={70} priority={true} className="object-contain" />
           </div>
         </Link>
 
         {/* Mobile Menu Button */}
-        <button
+        <button 
           className="md:hidden text-white menu-button z-50"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
