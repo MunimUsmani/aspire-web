@@ -23,7 +23,7 @@ const AboutHero = () => {
           </p>
 
           <p className="text-lg md:text-xl max-w-3xl">
-            Whether it's recruiting top-tier talent, offering strategic HR consulting, or assisting with employee
+            Whether it&apos;s recruiting top-tier talent, offering strategic HR consulting, or assisting with employee
             onboarding, we are your trusted partners in achieving workforce excellence.
           </p>
 
@@ -46,4 +46,3 @@ const AboutHero = () => {
 }
 
 export default AboutHero
-

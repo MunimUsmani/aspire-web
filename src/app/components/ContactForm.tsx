@@ -37,14 +37,14 @@ const ContactForm = () => {
     <section className="bg-gray-100 py-16">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-10">
-          <p className="text-gray-800 text-lg">
-            We are always ready to address your talent needs. We'll be pleased to provide professional, responsive,
-            reliable, and personalized services. For any inquiries, feel free to email us at{" "}
-            <a href="mailto:abells.hrsolutions@gmail.com" className="text-blue-600 hover:underline">
-              abells.hrsolutions@gmail.com
-            </a>{" "}
-            or complete this contact form:
-          </p>
+        <p className="text-gray-800 text-lg">
+        We are always ready to address your talent needs. We&apos;ll be pleased to provide professional, responsive,
+        reliable, and personalized services. For any inquiries, feel free to email us at{" "}
+       <a href="mailto:abells.hrsolutions@gmail.com" className="text-blue-600 hover:underline">
+        abells.hrsolutions@gmail.com
+       </a>{" "}
+       or complete this contact form:
+       </p>
         </div>
 
         <form onSubmit={handleSubmit} className="bg-white p-8 rounded-sm shadow-sm">
