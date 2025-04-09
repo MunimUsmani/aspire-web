@@ -15,10 +15,10 @@ const LinkedinOutrage = () => {
           <div className="md:w-2/3">
             <h2 className="text-3xl font-bold text-[#1a1e2e] mb-4">LinkedIn Outrage</h2>
             <p className="text-gray-700 mb-6 text-lg">
-              Leverage the power of the world's largest professional network with our strategic LinkedIn outreach
-              services. We help you connect with potential candidates and clients to expand your professional network
-              with impactful campaigns.
-            </p>
+  Leverage the power of the world&apos;s largest professional network with our strategic LinkedIn outreach
+  services. We help you connect with potential candidates and clients to expand your professional network
+  with impactful campaigns.
+</p>
 
             <div className="mb-8">
               <h3 className="text-xl font-medium text-[#c19a6b] mb-4">What we offer:</h3>

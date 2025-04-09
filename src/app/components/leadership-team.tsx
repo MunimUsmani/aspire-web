@@ -54,11 +54,11 @@ export default function LeadershipTeam() {
                 have been instrumental in achieving high success rates for our clients.
               </p>
               <p className="text-gray-700 mb-6 text-lg">
-                My commitment to excellence and integrity sets the foundation for Abell Solutions' operations. My
-                ability to foster meaningful client relationships and deliver tailored HR solutions makes me a driving
-                force behind the agency's success. Passionate about building impactful teams to helping businesses
-                thrive through effective talent acquisition strategies.
-              </p>
+  My commitment to excellence and integrity sets the foundation for Abell Solutions&apos; operations. My
+  ability to foster meaningful client relationships and deliver tailored HR solutions makes me a driving
+  force behind the agency&apos;s success. Passionate about building impactful teams to helping businesses
+  thrive through effective talent acquisition strategies.
+</p>
             </div>
           </div>
         </div>

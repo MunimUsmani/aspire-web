@@ -112,9 +112,9 @@ const IndustryExpertise = () => {
               <div>
                 <h3 className="text-xl md:text-2xl font-bold mb-4">Submit Your HR Business Proposal</h3>
                 <p className="text-white/80 mb-6">
-                  Are you an HR professional or agency with innovative solutions? We're open to business proposals 
-                  that can enhance our service offerings and deliver exceptional value to our clients.
-                </p>
+  Are you an HR professional or agency with innovative solutions? We&apos;re open to business proposals 
+  that can enhance our service offerings and deliver exceptional value to our clients.
+</p>
                 <Link 
                   href="/contact" 
                   className="inline-flex items-center bg-[#c19a6b] text-white px-4 py-2 rounded hover:bg-[#b08a5b] transition-colors"
