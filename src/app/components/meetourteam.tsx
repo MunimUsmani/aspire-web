@@ -54,7 +54,7 @@ interface TeamMemberProps {
       type: string
       value?: string
       label?: string
-      icon: any
+      icon: React.ElementType // Updated type for the icon
     }[]
   }
 }

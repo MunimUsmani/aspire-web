@@ -59,7 +59,7 @@ const TestimonialsGrid = () => {
                     <div className="flex mt-1">{renderStars(testimonial.rating)}</div>
                   </div>
                 </div>
-                <p className="text-gray-700 italic">"{testimonial.text}"</p>
+                <p className="text-gray-700 italic">&quot;{testimonial.text}&quot;</p>
               </div>
             ))}
           </div>
