@@ -28,7 +28,7 @@ export default function CompanyHistory() {
               <p className="text-gray-700 mb-6 text-lg">
                 Abells Solutions was founded in 2022 by Balach Ali and Abbas Kareem with a vision to revolutionize the
                 HR recruitment landscape. Since its inception, the agency has partnered with several prominent companies
-                to deliver personalized recruitment services tailored to each client's unique needs and industry
+                to deliver personalized recruitment services tailored to each client&apos;s unique needs and industry
                 requirements. Over the past two years, we have successfully facilitated over 50 hires, achieving an
                 impressive success ratio of 85%.
               </p>
@@ -36,8 +36,8 @@ export default function CompanyHistory() {
                 Our journey began with a small team of dedicated professionals who shared a passion for connecting the
                 right talent with the right opportunities. Through consistent delivery of exceptional service and
                 results, we quickly established ourselves as a trusted partner in the HR recruitment space. Our
-                commitment to understanding each client's unique culture and requirements has been the cornerstone of
-                our growth.
+                commitment to understanding each client&apos;s unique culture and requirements has been the cornerstone
+                of our growth.
               </p>
               <p className="text-gray-700 mb-6 text-lg">
                 Our primary goal is to enhance the reputation of the companies we work with by bringing in impactful
@@ -54,12 +54,12 @@ export default function CompanyHistory() {
                 <span className="font-semibold text-[#0055b8]">FusionTech</span>, among others.
               </p>
               <p className="text-gray-700 text-lg">
-                At <span className="font-semibold text-[#0055b8]">Abell's Solutions</span>, we are passionate about
-                contributing to our clients' growth by building teams that drive innovation and success. Our approach
-                combines deep industry knowledge, extensive professional networks, and a genuine commitment to
-                understanding each client's unique needs and culture. This has enabled us to consistently deliver
-                exceptional talent that not only meets technical requirements but also aligns with our clients' values
-                and vision.
+                At <span className="font-semibold text-[#0055b8]">Abell&apos;s Solutions</span>, we are passionate about
+                contributing to our clients&apos; growth by building teams that drive innovation and success. Our
+                approach combines deep industry knowledge, extensive professional networks, and a genuine commitment to
+                understanding each client&apos;s unique needs and culture. This has enabled us to consistently deliver
+                exceptional talent that not only meets technical requirements but also aligns with our clients&apos;
+                values and vision.
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function CompanyHistory() {
                 We strive to be recognized as the premier HR recruitment partner that consistently exceeds expectations,
                 fosters long-term relationships, and contributes meaningfully to the success of both clients and
                 candidates. Our vision extends beyond traditional recruitment to becoming a strategic partner in our
-                clients' growth journeys.
+                clients&apos; growth journeys.
               </p>
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function CompanyHistory() {
                 Our mission is to bridge the gap between exceptional talent and forward-thinking organizations through a
                 consultative approach that prioritizes quality over quantity. We believe in building relationships based
                 on trust, transparency, and mutual respect, ensuring that every placement we make contributes positively
-                to both the organization and the professional's career trajectory.
+                to both the organization and the professional&apos;s career trajectory.
               </p>
             </div>
           </div>

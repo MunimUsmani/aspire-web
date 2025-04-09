@@ -16,7 +16,7 @@ const ExpertiseHero = () => {
 
           <p className="text-lg md:text-xl max-w-3xl leading-relaxed">
             Our specialized knowledge across key industries enables us to understand your unique talent needs and
-            deliver exceptional HR solutions tailored to your sector's specific challenges.
+            deliver exceptional HR solutions tailored to your sector&apos;s specific challenges.
           </p>
 
           <div className="pt-4 pb-6 md:pb-0">
@@ -38,4 +38,3 @@ const ExpertiseHero = () => {
 }
 
 export default ExpertiseHero
-
