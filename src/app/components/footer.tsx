@@ -80,7 +80,7 @@ const Footer = () => {
       {/* Logo */}
       <div className="flex justify-center mb-5">
         <Image 
-          src="/Logo.png" 
+          src="/logo/logo.png" 
           alt="Aspire HR Consultants" 
           width={140} 
           height={50}
