@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <div className="relative h-10 w-32 mb-6">
-            <Image src="/Logo.png" alt="Aspire HR Consultants" width={128} height={70} className="object-contain" />
+            <Image src="/Logo.png" alt="logo" width={128} height={70} className="object-contain" />
           </div>
         </Link>
 
